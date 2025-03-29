@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="stock-trends",
     version="0.1.0",
-    packages=['stock_trends'],
+    packages=find_packages(),
     install_requires=[
         "pandas",
         "matplotlib",

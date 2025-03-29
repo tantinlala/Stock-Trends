@@ -1,19 +1,19 @@
-- tickers: [OUNZ, XLB, VTIAX, NVDA]
+- tickers: [OUNZ, XLB, VTIAX, XLRE]
   start_date: 2018-09-20
   end_date: 2019-03-20
   description: Fed Hike / U.S. China Trade War
 
-- tickers: [OUNZ, XLB, VTIAX, NVDA]
+- tickers: [OUNZ, XLB, VTIAX, XLRE]
   start_date: 2020-03-01
   end_date: 2020-09-01
   description: COVID-19
 
-- tickers: [OUNZ, XLB, VTIAX, NVDA]
+- tickers: [OUNZ, XLB, VTIAX, XLRE]
   start_date: 2015-08-18
   end_date: 2016-02-18
   description: China Yuan Devalation
 
-- tickers: [OUNZ, XLB, VTIAX, NVDA]
+- tickers: [OUNZ, XLB, VTIAX, XLRE]
   start_date: 2022-02-24
   end_date: 2022-08-24
   description: Russia-Ukraine War
