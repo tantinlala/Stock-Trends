@@ -26,7 +26,7 @@ def plot_data(data_list, title, ticker_list):
     
     plt.title(title)
     plt.xlabel('Date')
-    plt.ylabel('Price')
+    plt.ylabel('Normalized Price')
     plt.legend()
     plt.grid()
     plt.show()
