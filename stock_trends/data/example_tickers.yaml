@@ -1,0 +1,12 @@
+- ticker: AAPL
+  start_date: 2023-01-01
+  end_date: 2023-12-31
+- ticker: MSFT
+  start_date: 2022-06-01
+  end_date: 2023-06-01
+- ticker: TSLA
+  start_date: 2021-01-01
+  end_date: 2022-01-01
+- ticker: AMZN
+  start_date: 2020-03-01
+  end_date: 2021-03-01
