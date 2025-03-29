@@ -1,0 +1,1 @@
+# This file makes the stock-trends directory a package.

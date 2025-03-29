@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def plot_data(data, data_sp500, title, ticker):
+def plot_data(data_first, data_second, title, ticker_first, ticker_second):
     """
     Plots the stock data with highlighted economic periods.
 
@@ -10,8 +10,8 @@ def plot_data(data, data_sp500, title, ticker):
         title (str): The title of the plot.
     """
     plt.figure(figsize=(12, 6))
-    plt.plot(data['Close'], label=ticker)
-    plt.plot(data_sp500['Close'], label='S&P 500', alpha=0.7)
+    plt.plot(data_first['Close'], label=ticker_first)
+    plt.plot(data_second['Close'], label=ticker_second, alpha=0.7)
     plt.title(title)
     plt.xlabel('Date')
     plt.ylabel('Price')
