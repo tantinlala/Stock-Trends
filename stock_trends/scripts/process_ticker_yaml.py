@@ -14,14 +14,25 @@ def main():
     with open(yaml_file, "r") as file:
         data = yaml.safe_load(file)
 
-    # Iterate through the list of tickers and dates
+    # Iterate through the list of entries
     for entry in data:
-        ticker = entry["ticker"]
+        # Get the list of tickers
+        tickers = entry["tickers"]
         start_date = pd.to_datetime(entry["start_date"])
         end_date = pd.to_datetime(entry["end_date"])
+        
+        # Get description if available, otherwise use None
+        description = entry.get("description")
+        
+        # If description exists, create a custom title, otherwise use the default
+        if description:
+            tickers_str = ", ".join(tickers)
+            title = f"{tickers_str} vs S&P 500: {description}"
+        else:
+            title = None
 
-        # Call compare_to_sp500 for each entry
-        compare_to_sp500(ticker, start_date, end_date)
+        # Call compare_to_sp500 with the list of tickers
+        compare_to_sp500(tickers, start_date, end_date, title)
 
 if __name__ == "__main__":
     main()

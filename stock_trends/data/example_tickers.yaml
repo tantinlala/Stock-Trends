@@ -1,12 +1,19 @@
-- ticker: AAPL
+- tickers: [AAPL, GOOG]
   start_date: 2023-01-01
   end_date: 2023-12-31
-- ticker: MSFT
+  description: Big Tech in 2023
+
+- tickers: [MSFT, NVDA, AMD]
   start_date: 2022-06-01
   end_date: 2023-06-01
-- ticker: TSLA
+  description: Tech Companies Year-over-Year
+
+- tickers: [TSLA, F, GM]
   start_date: 2021-01-01
   end_date: 2022-01-01
-- ticker: AMZN
+  description: Auto Industry Performance
+
+- tickers: [AMZN, WMT, TGT]
   start_date: 2020-03-01
   end_date: 2021-03-01
+  description: Retail During COVID-19
