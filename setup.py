@@ -12,7 +12,6 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "compare-ticker=stock_trends.scripts.compare_ticker:main",
             "process-ticker-yaml=stock_trends.scripts.process_ticker_yaml:main",
         ],
     },

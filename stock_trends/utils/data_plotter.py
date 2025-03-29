@@ -17,7 +17,10 @@ def plot_data(data_list, title, ticker_list):
     
     # Plot each ticker's data
     for i, (data, ticker) in enumerate(zip(data_list, ticker_list)):
-        plt.plot(data['Close'], label=ticker, color=colors[i])
+        if ticker == 'VOO':
+            plt.plot(data['Close'], label=ticker, color=colors[i], linestyle='-.')
+        else:
+            plt.plot(data['Close'], label=ticker, color=colors[i])
     
     plt.title(title)
     plt.xlabel('Date')

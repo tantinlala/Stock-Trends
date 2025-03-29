@@ -1,17 +1,7 @@
-- tickers: [AAPL, GOOG]
-  start_date: 2023-01-01
-  end_date: 2023-12-31
-  description: Big Tech in 2023
-
-- tickers: [MSFT, NVDA, AMD]
-  start_date: 2022-06-01
-  end_date: 2023-06-01
-  description: Tech Companies Year-over-Year
-
-- tickers: [TSLA, F, GM]
-  start_date: 2021-01-01
-  end_date: 2022-01-01
-  description: Auto Industry Performance
+- tickers: [AAPL, GOOG, OUNZ]
+  start_date: 2018-03-01
+  end_date: 2020-01-15
+  description: U.S.-China Trade War
 
 - tickers: [AMZN, WMT, TGT]
   start_date: 2020-03-01
