@@ -28,3 +28,9 @@ After installation, you can use the `process-ticker-yaml` entry point to process
 ```bash
 process-ticker-yaml stock_trends/data/historical_tickers.yaml
 ```
+
+### 3. Visualize Stock Trends
+
+You can visualize stock trends by running the plotting script. Below is an example of a generated plot:
+
+![Stock Trends Example](fed_hike_china_trade_war.png)
