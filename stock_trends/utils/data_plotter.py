@@ -19,6 +19,8 @@ def plot_data(data_list, title, ticker_list):
     for i, (data, ticker) in enumerate(zip(data_list, ticker_list)):
         if ticker == 'VOO':
             plt.plot(data['Close'], label=ticker, color=colors[i], linestyle='-.')
+        elif ticker == 'OUNZ':
+            plt.plot(data['Close'], label=ticker, color='gold')
         else:
             plt.plot(data['Close'], label=ticker, color=colors[i])
     

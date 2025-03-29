@@ -1,9 +1,0 @@
-- tickers: [AAPL, GOOG, OUNZ]
-  start_date: 2018-03-01
-  end_date: 2020-01-15
-  description: U.S.-China Trade War
-
-- tickers: [AMZN, WMT, TGT]
-  start_date: 2020-03-01
-  end_date: 2021-03-01
-  description: Retail During COVID-19
