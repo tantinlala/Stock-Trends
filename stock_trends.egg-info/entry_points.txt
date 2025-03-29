@@ -1,2 +1,0 @@
-[console_scripts]
-compare-ticker = stock_trends.scripts.compare_ticker:main
