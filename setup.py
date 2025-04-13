@@ -9,10 +9,12 @@ setup(
         "matplotlib",
         "yfinance",
         "PyYAML",
+        "scipy",
     ],
     entry_points={
         "console_scripts": [
             "process-ticker-yaml=stock_trends.scripts.process_ticker_yaml:main",
+            "allocate-portfolio=stock_trends.scripts.allocate_portfolio:main",
         ],
     },
     author="Nicholas",

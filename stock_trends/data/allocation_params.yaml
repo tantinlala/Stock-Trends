@@ -1,0 +1,16 @@
+# Portfolio Allocation Input Parameters
+
+#### Expected percentage change (as decimals, e.g., 1% = 0.01)
+# Scenario A = Trump Continues China Tariffs
+scenario_A:
+  stonks: -0.0125
+  gold: 0.0375
+
+# Scenario B = Trump Backs Off
+scenario_B:
+  stonks: 0.10
+  gold: -0.05
+
+# Minimum acceptable payoff constraint (as decimal)
+# e.g., -1% acceptable loss = -0.01
+min_acceptable_payoff: -0.01
